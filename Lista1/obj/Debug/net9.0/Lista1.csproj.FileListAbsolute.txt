@@ -1,0 +1,14 @@
+D:\Csharp\Lista1-Vetores\Lista1\obj\Debug\net9.0\Lista1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Csharp\Lista1-Vetores\Lista1\obj\Debug\net9.0\Lista1.AssemblyInfoInputs.cache
+D:\Csharp\Lista1-Vetores\Lista1\obj\Debug\net9.0\Lista1.AssemblyInfo.cs
+D:\Csharp\Lista1-Vetores\Lista1\obj\Debug\net9.0\Lista1.csproj.CoreCompileInputs.cache
+D:\Csharp\Lista1-Vetores\Lista1\bin\Debug\net9.0\Lista1.exe
+D:\Csharp\Lista1-Vetores\Lista1\bin\Debug\net9.0\Lista1.deps.json
+D:\Csharp\Lista1-Vetores\Lista1\bin\Debug\net9.0\Lista1.runtimeconfig.json
+D:\Csharp\Lista1-Vetores\Lista1\bin\Debug\net9.0\Lista1.dll
+D:\Csharp\Lista1-Vetores\Lista1\bin\Debug\net9.0\Lista1.pdb
+D:\Csharp\Lista1-Vetores\Lista1\obj\Debug\net9.0\Lista1.dll
+D:\Csharp\Lista1-Vetores\Lista1\obj\Debug\net9.0\refint\Lista1.dll
+D:\Csharp\Lista1-Vetores\Lista1\obj\Debug\net9.0\Lista1.pdb
+D:\Csharp\Lista1-Vetores\Lista1\obj\Debug\net9.0\Lista1.genruntimeconfig.cache
+D:\Csharp\Lista1-Vetores\Lista1\obj\Debug\net9.0\ref\Lista1.dll

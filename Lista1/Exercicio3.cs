@@ -2,18 +2,18 @@
 using MinhaBiblioteca;
 
 class Exercicio3
+
 {
-    
     static void Main()
     {
-        int n, t=0;
-        Console.WriteLine("Tamanho do vetor:");
+        int n, t;
+        Console.WriteLine("Tamanho do vetor: ");
         n = int.Parse(Console.ReadLine());
-        int[] vetor = new int[n];
-        Biblioteca.gerarVetor(vetor);
-        Biblioteca.mostrarVetor(vetor);
-        t = Biblioteca.menorVetor(vetor);
-        Console.WriteLine("\nO menor valor no vetor é: " + t);
+        int[] meuVetor = new int[n];
+        Biblioteca.gerarVetor(meuVetor);
+        Biblioteca.mostrarVetor(meuVetor);
+        t = Biblioteca.menorVetor(meuVetor);
+        Console.WriteLine("\nO menor valor do vetor: " + t);
         Console.ReadKey();
     }
 }

@@ -12,40 +12,45 @@ namespace MinhaBiblioteca
                 Console.Write($"Array[{i}]:");
                 vetor[i] = int.Parse(Console.ReadLine());
             }// fim for
+
         }
+
         public static void gerarVetor(int[] vetor)
         {
             Random aleatorio = new Random();
             for (int i = 0; i < vetor.Length; i++)
                 vetor[i] = aleatorio.Next(1, 100);
+
         }
         public static void mostrarVetor(int[] vetor)
         {
             Console.WriteLine("Dados do Vetor:");
             for (int i = 0; i < vetor.Length; i++)
+            {
                 Console.Write("|" + vetor[i]);
-
+            }
+            Console.Write("|");
         }
         public static int somaVetor(int[] vetor)
         {
-            int soma = 0;
+            int quant = 0;
             for (int i = 0; i < vetor.Length; i++)
             {
-                soma += vetor[i];
+                quant = quant + vetor[i];
             }
-            return soma;
+            return quant;
         }
-        public static int imparVetor(int[] vetor)
+        public static int quantImpar(int[] vetor)
         {
-            int impV = 0;
+            int quant = 0;
             for (int i = 0; i < vetor.Length; i++)
             {
                 if (vetor[i] % 2 != 0)
                 {
-                    impV++;
+                    quant++;
                 }
             }
-            return impV;
+            return quant;
         }
         public static int menorVetor(int[] vetor)
         {
@@ -54,18 +59,20 @@ namespace MinhaBiblioteca
             {
                 if (menor > vetor[i])
                 {
+
                     menor = vetor[i];
                 }
             }
             return menor;
         }
-        public static int maiorVetor(int[] vetor)
+
+    public static int maiorVetor(int[] vetor)
         {
             int maior = 1;
             for (int i = 0; i < vetor.Length; i++)
             {
-                if (maior < vetor[i])
-                {
+                if (maior < vetor[i]) {
+
                     maior = vetor[i];
                 }
             }

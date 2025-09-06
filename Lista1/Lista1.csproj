@@ -11,7 +11,7 @@
 
 </Project>
 =======
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -22,3 +22,4 @@
   </PropertyGroup>
 
 </Project>
+>>>>>>> a579633383ade4ce20b458300cbc7fde09e8d099
